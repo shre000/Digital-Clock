@@ -12,13 +12,13 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(58, 32, 32);
+    background-color: rgb(8, 227, 247);
 }
 
 #time {
     display: flex;
     gap: 40px;
-    color: aliceblue;
+    color: rgb(11, 11, 11);
 }
 
 #time .circle{
@@ -28,6 +28,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow:  0 0 90px  rgba(0,0,0,0.6);
+    border-radius: 50%;
 }
 #time .circle svg
 {
